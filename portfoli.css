@@ -1,0 +1,80 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-primary{
+    color: #FD6E0A;
+
+}
+.dark-2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-radius: none;
+}
+
+
+
+
+/*nav style*/
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a{
+    text-decoration: none;
+    font-style: 20px;
+}
+.bannar-clo{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannar-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.bannar-description{
+    font-size: 3px ;
+    font-weight: bold;
+    text-align: left;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px  0 200px ;
+}
+.bannar-try{
+    width: 580px;
+}
+.bannar-container{
+    max-width: 580px;
+}
+.cst{
+    background-image: url(../../My-project-repo/g.PNG);
+    background-position: top left,button right;
+}
